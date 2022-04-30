@@ -114,6 +114,7 @@ const Form = (): JSX.Element => {
             Bilens registreringsnummer
           </InputLabel>
           <TextField
+            aria-label="registreringsnummer"
             name="regnr"
             placeholder="E.g. AB 12345"
             value={regNr}
@@ -154,6 +155,7 @@ const Form = (): JSX.Element => {
             Fødselsnummer
           </InputLabel>
           <TextField
+            aria-label="fødselsnummer"
             name="fnr"
             placeholder="11 siffer"
             value={fNr}
@@ -184,6 +186,7 @@ const Form = (): JSX.Element => {
               Fornavn
             </InputLabel>
             <TextField
+              aria-label="fornavn"
               name="firstName"
               type="text"
               value={firstName}
@@ -198,6 +201,7 @@ const Form = (): JSX.Element => {
               Etternavn
             </InputLabel>
             <TextField
+              aria-label="etternavn"
               name="lastName"
               type="text"
               value={lastName}
@@ -213,6 +217,7 @@ const Form = (): JSX.Element => {
             E-post
           </InputLabel>
           <TextField
+            aria-label="epost"
             name="email"
             placeholder="name@example.com"
             value={email}
@@ -229,6 +234,7 @@ const Form = (): JSX.Element => {
         </Stack>
         <Box sx={{ display: "flex", gap: 2 }}>
           <Button
+            aria-label="beregn pris"
             disabled={!isValidForm}
             variant="contained"
             sx={{ borderRadius: 100 }}
@@ -237,6 +243,7 @@ const Form = (): JSX.Element => {
             Beregn pris
           </Button>
           <Button
+            aria-label="avbryt"
             variant="outlined"
             sx={{ borderRadius: 100 }}
             onClick={handleReset}
