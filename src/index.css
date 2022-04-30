@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Profil";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Profilfont-Regular-Web.woff2") format("woff2"),
+    url("./fonts/Profilfont-Regular-Web.woff") format("woff");
+}
+
+body {
+  font-family: "Profil";
+}
+
+.label {
+  font-size: 24px;
+}
