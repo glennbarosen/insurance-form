@@ -1,9 +1,4 @@
-### article-frontpage
+### insurance-form
+> Take home test for job interview 📝
 
-##### Setup
-
-- Clone
-- `yarn`
-- `yarn dev`
-
-or see the live demo [here.](https://insurance.glennbarosen.com)
+[Live demo.](https://insurance.glennbarosen.com)
